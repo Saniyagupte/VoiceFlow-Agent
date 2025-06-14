@@ -88,14 +88,14 @@ VoiceFlow Agent is a voice-operated, modular AI assistant that listens to your s
 
 ##  Future Scope
 
-1. ** Calendar & Email Integration**  
+1.  Calendar & Email Integration**  
    Enable the assistant to schedule meetings, send emails, and check your availability using APIs like Google Calendar and Gmail.
 
-2. ** Plugin System for New Intents**  
+2.  Plugin System for New Intents**  
    Design a plugin-based architecture allowing developers to easily add new capabilities such as booking rides, ordering food, or starting timers.
 
-3. ** IoT & Smart Home Control**  
+3.  IoT & Smart Home Control**  
    Control smart devices like lights, fans, or thermostats using protocols such as MQTT or integration with platforms like Home Assistant.
 
-4. ** Memory & Context Awareness**  
+4.  Memory & Context Awareness**  
    Introduce short-term memory to support follow-up questions and long-term memory for storing user preferences and behaviors.
