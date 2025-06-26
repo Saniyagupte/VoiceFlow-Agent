@@ -1,0 +1,26 @@
+<!-- templates/index.html -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>VoiceFlow Agent</title>
+</head>
+<body>
+  <h1>🎙️ VoiceFlow Agent</h1>
+  <button onclick="runAgent()">Start Voice Agent</button>
+  <pre id="output"></pre>
+
+  <script>
+    function runAgent() {
+      fetch("/run", { method: "POST" })
+        .then(res => res.json())
+        .then(data => {
+          document.getElementById("output").innerText =
+            JSON.stringify(data, null, 2);
+        })
+        .catch(err => {
+          document.getElementById("output").innerText = "Error: " + err;
+        });
+    }
+  </script>
+</body>
+</html>
